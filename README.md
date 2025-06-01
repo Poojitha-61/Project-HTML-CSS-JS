@@ -1,5 +1,4 @@
-# Project HTML-CSS-JS
-
+# Project: HTML-CSS-JS
 # ✅ Objective
 To build a personal profile web page using HTML, CSS, and JavaScript, featuring user introduction, a contact form, and interactive greeting functionality.
 
