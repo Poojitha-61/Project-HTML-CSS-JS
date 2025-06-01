@@ -1,0 +1,87 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+  background-color: lightblue;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+h2 {
+  color: darkblue;
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+
+.profile-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0;
+  border: 3px solid rgb(80, 143, 203);
+  margin-bottom: 10px;
+}
+
+.introduction {
+  font-size: 18px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  /*width: 100%;*/
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#message{
+    width: 200px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.greeting-button {
+  display: block;
+  margin: 20px auto;
+  background-color: green;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.greeting-button:hover {
+  background-color: darkgreen;
+}
